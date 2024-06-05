@@ -1,0 +1,15 @@
+[tool.pyright]
+include = [
+	"src",
+	"src/models"
+	"src/utils"
+]
+exclude = [
+    "**/__pycache__",
+]
+pythonVersion = "3.12"
+pythonPlatform = "Linux"
+
+executionEnvironments = [
+  { root = "src" }
+]
